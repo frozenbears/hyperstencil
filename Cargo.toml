@@ -1,0 +1,9 @@
+[package]
+name = "hyperstencil"
+version = "0.1.0"
+authors = ["Marc Sciglimpaglia <frozenbears@gmail.com>"]
+
+[dependencies]
+clap = "2.26.0"
+image = "0.15.0"
+colored = "1.5.2"
