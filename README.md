@@ -15,10 +15,11 @@ Make sure you have a recent version of
 [Rust](https://www.rust-lang.org/en-US/install.html), and run:
 
 ```
-cargo build --release
+make && make install
 ```
 
-in the top-level project directory. The binary can be found in `target/release`.
+in the top-level project directory. By default the binary will be installed in
+/usr/local/bin, but this can be customized in the Makefile.
 
 
 ## Usage
